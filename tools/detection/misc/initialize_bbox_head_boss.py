@@ -129,7 +129,8 @@ def parse_args():
         '--lora-name',
         type=str,
         nargs='+',
-        default=['rpn_head.rpn_conv', 'rpn_head.rpn_reg', 'rpn_head.rpn_cls', 'roi_head.bbox_head.shared_fcs.0', 'roi_head.bbox_head.shared_fcs.1',
+        default=['rpn_head.rpn_conv', 'rpn_head.rpn_reg', 'rpn_head.rpn_cls', 
+                 'roi_head.bbox_head.shared_fcs.0', 'roi_head.bbox_head.shared_fcs.1',
                  'neck.lateral_convs.0.conv', 'neck.lateral_convs.1.conv','neck.lateral_convs.2.conv','neck.lateral_convs.3.conv',
                  'neck.fpn_convs.0.conv','neck.fpn_convs.1.conv','neck.fpn_convs.2.conv','neck.fpn_convs.3.conv'],
         help='Target lora parameter names')
