@@ -57,11 +57,11 @@ Download [DIOR](https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-Uq
         	└── Horizontal Bounding Boxes
         		└── 00001.xml
         		└── 00002.xml
-				└── ...
+			└── ...
         └── JPEGImages
         	└── 00001.jpg
         	└── 00002.jpg
-			└── ...
+		└── ...
     	└── Main
         	└── trainval.txt
         	└── test.txt
