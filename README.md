@@ -3,7 +3,7 @@
 
 This repository is an official implementation of 
 
-### Balanced Orthogonal Subspace Separation Detector for Few-Shot Object Detection in Aerial Imagery
+### [Balanced Orthogonal Subspace Separation Detector for Few-Shot Object Detection in Aerial Imagery](https://ieeexplore.ieee.org/document/10586858)
 Hongxiang Jiang, Qixiong Wang, Jiaqi Feng, Guangyun Zhang, Jihao Yin
 
 Transactions on Geoscience and Remote Sensing (TGRS) 2024
@@ -119,3 +119,15 @@ bash tools/detection/dist_test.sh ${config} ${checkpoint_path} ${gpu-num} --eval
 
 
 ## Citation
+```
+@ARTICLE{10586858,
+  author={Jiang, Hongxiang and Wang, Qixiong and Feng, Jiaqi and Zhang, Guangyun and Yin, Jihao},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Balanced Orthogonal Subspace Separation Detector for Few-Shot Object Detection in Aerial Imagery}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Remote sensing;Detectors;Object detection;Training;Feature extraction;Metalearning;Task analysis;Few-shot object detection (FSOD);remote sensing images (RSIs);adapter tuning;orthogonal subspace learning;disentanglement representation},
+  doi={10.1109/TGRS.2024.3423305}}
+```
