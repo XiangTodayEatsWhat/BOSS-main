@@ -24,7 +24,7 @@ Transactions on Geoscience and Remote Sensing (TGRS) 2024
 Install CUDA 11.1 and Python 3.8 with Anaconda firstly, and clone the repository locally:
 ```shell
 conda create -n boss python=3.8
-git clone https://github.com/XiangTodayEatsWhat/Inference-InfoGAN.git
+git clone https://github.com/XiangTodayEatsWhat/BOSS-main.git
 ```
 Then, install PyTorch and torchvision:
 ```shell
